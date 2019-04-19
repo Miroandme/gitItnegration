@@ -1,0 +1,4 @@
+<aura:component >
+    <h1>Hello Miro!</h1>
+	
+</aura:component>
