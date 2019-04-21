@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Indicator Badge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Indicator Badges</value>
+    </caseValues>
+    <fields>
+        <label><!-- Badge Color --></label>
+        <name>Badge_Color__c</name>
+        <picklistValues>
+            <masterLabel>DeepPink</masterLabel>
+            <translation><!-- DeepPink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DeepSkyBlue</masterLabel>
+            <translation><!-- DeepSkyBlue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LimeGreen</masterLabel>
+            <translation><!-- LimeGreen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RosyBrown</masterLabel>
+            <translation><!-- RosyBrown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tomato</masterLabel>
+            <translation><!-- Tomato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turquoise</masterLabel>
+            <translation><!-- Turquoise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Violet</masterLabel>
+            <translation><!-- Violet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YellowGreen</masterLabel>
+            <translation><!-- YellowGreen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Should follow &lt;lightning:icon /&gt; naming convention (ex: standard:user, action:freeze_user) --></help>
+        <label><!-- Badge Icon Name --></label>
+        <name>Badge_Icon_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comparison Type --></label>
+        <name>Comparison_Type__c</name>
+        <picklistValues>
+            <masterLabel>Blank or Null</masterLabel>
+            <translation><!-- Blank or Null --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contains</masterLabel>
+            <translation><!-- Contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greater or Equal</masterLabel>
+            <translation><!-- Greater or Equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Less or Equal</masterLabel>
+            <translation><!-- Less or Equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Blank or Null</masterLabel>
+            <translation><!-- Not Blank or Null --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use Boolean Value of Field</masterLabel>
+            <translation><!-- Use Boolean Value of Field --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comparison Value --></label>
+        <name>Comparison_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Field --></label>
+        <name>Related_Field__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

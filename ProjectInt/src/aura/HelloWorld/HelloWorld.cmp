@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+     <aura:attribute name="greeting" type="String" default="World" />
+       <div class="slds-card__body slds-card__body_inner"> Hello, {!v.greeting}! </div>
+        <input class="slds-input"  aura:id="myInput" type="text" />
+         <button onclick="{!c.updateValue}" class="slds-button slds-button_brand" name="Update" type="submit">Update</button>
+          <div class="slds-m-top_small"></div>
+       
+    <div class="slds-card">
+           <div class="slds-card__body slds-card__body_inner slds-p-top_medium"></div>
+        
+       </div>
+</aura:component>
