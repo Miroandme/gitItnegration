@@ -1,0 +1,11 @@
+<aura:component implements="force:hasRecordId,force:hasSObjectName,flexipage:availableForAllPageTypes" controller="INDICATOR_Controller" access="public">    
+    <aura:attribute name="ownerImageURL" type="String" />
+    <aura:attribute name="thisRecordId" type="String" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="guessTheObject">
+        <div class="slds-box">
+            <lightning:outputField id="idOwnerId" fieldName="OwnerId" />
+        </div>
+    </lightning:recordViewForm>
+    $<img src="{!v.ownerImageURL}" />$
+</aura:component>

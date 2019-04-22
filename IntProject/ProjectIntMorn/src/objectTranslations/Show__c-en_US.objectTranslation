@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Show</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Shows</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active Syndications --></label>
+        <name>Active_Syndications__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Syndications --></label>
+        <name>All_Syndications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Format --></label>
+        <name>Format__c</name>
+        <picklistValues>
+            <masterLabel>Podcast</masterLabel>
+            <translation><!-- Podcast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radio</masterLabel>
+            <translation><!-- Radio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vlog</masterLabel>
+            <translation><!-- Vlog --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Host --></label>
+        <name>Host__c</name>
+        <relationshipLabel><!-- Shows --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Show Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
